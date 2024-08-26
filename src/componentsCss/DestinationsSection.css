@@ -1,0 +1,43 @@
+/* src/components/DestinationsSection.css */
+.destinations-section {
+    padding: 40px;
+    text-align: center;
+    
+  }
+  
+  .destinations-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .destination-card {
+    background: rgb(13,180,184);
+background: linear-gradient(47deg, rgba(13,180,184,1) 17%, rgba(153,217,193,1) 76%); 
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .destination-card img {
+    width: 100%;
+    max-width: 500px;
+    max-height: 500px;
+    border-radius: 10px;
+  }
+  
+  .destination-card h3 {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  .destination-card :hover{
+    transform: scale(1.1);
+    transition: ease-in-out 0.3s;
+    cursor: pointer;
+  }
+
+  .destinations-section h2{
+    margin-bottom: 50px;
+  }

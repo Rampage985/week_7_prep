@@ -1,0 +1,35 @@
+/* src/components/ContactForm.css */
+.contact-form-section {
+    padding: 40px;
+    background-color: #0d56c1;
+background-image: linear-gradient(45deg, #0d56c1 0%, #12c0d4 100%);
+
+    color: white;
+    text-align: center;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .contact-form input, .contact-form textarea {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .contact-form button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #ff6600;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  

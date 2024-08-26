@@ -1,0 +1,41 @@
+/* src/components/Header.css */
+.header {
+    background-color: #0d56c1;
+    background-image: linear-gradient(45deg, #0d56c1 0%, #12c0d4 100%);
+    font-family: 'Courier New', Courier, monospace;
+    padding: 1px;
+    color: white;
+    text-align: center;
+  }
+  
+  .header nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0;
+  }
+  
+  .header nav ul li {
+    
+    margin: 0 15px;
+
+  }
+  
+  .header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .header nav ul h1{
+    font-size:xx-large;
+    align-items:end;
+  }
+
+  .header nav ul li :hover{
+    font-style: italic;
+    font-size: x-large;
+    transition: ease-in-out 0.2s;
+
+  }
